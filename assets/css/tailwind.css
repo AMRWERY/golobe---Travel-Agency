@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .search-form-btn {
+    @apply bg-[#8DD3BB] px-4 md:px-6 py-2 md:py-3 flex items-center font-500 hover:bg-[#7cc3ab] text-sm rounded;
+  }
+
+  .title-style {
+    @apply text-black text-2xl md:text-[32px] font-600 capitalize;
+  }
+
+  .subtitle-style {
+    @apply mt-4 text-sm md:text-base font-400;
+  }
+
+  .outline-btn-block {
+    @apply hidden px-4 py-2 md:block border border-[#8DD3BB] hover:bg-[#8DD3BB] hover:text-white transition-colors text-sm font-500 capitalize rounded;
+  }
+
+  .outline-btn {
+    @apply px-4 py-2 md:block border border-[#8DD3BB] hover:bg-[#8DD3BB] hover:text-white transition-colors text-sm font-500 capitalize;
+  }
+}
+
+@layer base {
+  /* h1 {
+    @apply text-2xl;
+  } */
+}
+
+@layer components {
+  /* .card {
+    background-color: theme("colors.white");
+    border-radius: theme("borderRadius.lg");
+    padding: theme("spacing.6");
+    box-shadow: theme("boxShadow.xl");
+  } */
+}
